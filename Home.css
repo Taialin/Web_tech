@@ -1,0 +1,15 @@
+.App-ack{
+    position:fixed;
+    width: 100%;
+    right: 0;
+    height: 100%;
+    background-color: rgb(27, 27, 27); 
+    
+  }
+  .App-tamp{
+    position:sticky;
+    width: 105%;
+    height: 100%;
+
+    
+  }

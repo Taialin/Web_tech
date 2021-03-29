@@ -1,24 +1,23 @@
-import React, { Component } from 'react'
-import { browserHistory } from 'react-router'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { Router } from "react-router-dom"
+ import {createBrowserHistory} from 'history'
 
-export default class Home extends Component {
-  handleSubmit(e) {
-    e.preventDefault()
-    const value = e.target.elements[0].value.toLowerCase()
-    browserHistory.push(`/genre/${value}`)
-  }
-  render() {
-    return (
-      <div className="row">
-        <div className="col-md-12">Раздел /</div>
-        <form
-          className="col-md-4"
-          onSubmit={this.handleSubmit}
-        >
-          <input type="text" placeholder="genreName" />
-          <button type="submit">Перейти</button>
-        </form>
-      </div>
-    )
-  }
-}
+  // создаём кастомную историю
+  const history = createBrowserHistory()
+
+  ReactDOM.render((
+     <Router history={history}>
+       <App/>
+     </Router>
+   ), document.getElementById('root')
+
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

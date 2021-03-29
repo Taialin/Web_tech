@@ -4,7 +4,7 @@
 }
 
 .App-logo { 
-position:sticky;
+position:absolute;
 width: 1044px;
 height: 354px;
 left: 190px;
@@ -13,7 +13,9 @@ top: 170px;
 }
 
 .App-back{
+  position:fixed;
   width: 100%;
+  right: 0;
   background: url(YJ4k5zVMjZA.jpg) no-repeat; 
   
 }
@@ -22,25 +24,26 @@ top: 170px;
 
 .App-header {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
- 
-  
-  
 }
 
 .App-link {
 position: absolute;
 width: 144px;
-height: 34px;
+height: 54px;
 left: 590px;
 top: 521px;
 color: #e4cde9;
 font-family: "Lucida Console";
-font-style: normal;
+font-style:normal;
 font-weight: normal;
+font-size: 9mm;
 
 }
 
+.App-gost {
+  position: absolute;
+  width: 144px;
+  height: 44px;
+  left: 590px;
+  top: 490px;
+}
