@@ -21,7 +21,7 @@
     top: -190px;  
   }
   .App-logosmall{
-    position:absolute;
+    position:fixed;
     width: 1255px;
     height: 134px;
     left: 550px;
