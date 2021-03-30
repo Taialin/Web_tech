@@ -7,9 +7,34 @@
     
   }
   .App-tamp{
-    position:sticky;
-    width: 105%;
-    height: 100%;
-
+    position:absolute;
+    width: 350px;
+    height: 554px;
+    left: 10px;
+    top: 100px;  
+  }
+  .App-gost{
+    position:absolute;
+    width: 50px;
+    height: 554px;
+    left: -400px;
+    top: -190px;  
+  }
+  .App-logosmall{
+    position:absolute;
+    width: 1255px;
+    height: 134px;
+    left: 550px;
+    top: -60px;
+    background: url(minilogo.svg) no-repeat; 
     
   }
+  .Navbar-brand
+  {
+    width: 144px;
+    height: 74px;
+    left: 600px;
+    top: 7px;
+  }
+  
+ 
