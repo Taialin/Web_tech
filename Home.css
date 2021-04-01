@@ -1,3 +1,7 @@
+.Home {
+  text-align: center;
+  
+}
 .App-ack{
     position:fixed;
     width: 100%;
@@ -13,12 +17,26 @@
     left: 10px;
     top: 100px;  
   }
-  .App-gost{
-    position:absolute;
-    width: 50px;
-    height: 554px;
-    left: -400px;
-    top: -190px;  
+  .Home-gost{
+    position:relative;
+    top: 70px;
+    width: 1100px;
+    height: 500px; 
+    left: 0px;
+    
+    
+  }
+  .Home-grodno{
+    position:relative;
+    top: 0px;
+    width: 700px;
+    height: 300px; 
+    left: 0px;
+  }
+  .Home-carusel{
+    position: absolute;
+    width: 1300px;
+    height: 550px;  
   }
   .App-logosmall{
     position:fixed;
@@ -32,7 +50,7 @@
   .Navbar-brand
   {
     width: 144px;
-    height: 74px;
+    height: 104px;
     left: 600px;
     top: 7px;
   }
