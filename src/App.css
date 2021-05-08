@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo { 
+position:absolute;
+width: 1044px;
+height: 354px;
+left: 190px;
+top: 170px;
+
+}
+
+.App-back{
+  position:fixed;
+  width: 100%;
+  right: 0;
+  background: no-repeat; 
+  
+}
+
+
+
+.App-header {
+  position: absolute;
+}
+
+.App-link {
+position: absolute;
+width: 144px;
+height: 54px;
+left: 590px;
+top: 521px;
+color: #e4cde9;
+font-family: "Lucida Console";
+font-style:normal;
+font-weight: normal;
+font-size: 9mm;
+
+}
+
+.App-gost {
+  position: absolute;
+  width: 144px;
+  height: 44px;
+  left: 590px;
+  top: 490px;
+}
